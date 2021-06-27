@@ -1,0 +1,25 @@
+<div class="signin-content">
+	<mat-card>
+		<mat-card-content>
+			<form [formGroup]="loginForm">
+				<h2>Login</h2>
+				<mat-form-field class="full-width-input">
+					<input matInput placeholder="Email" formControlName="email" required>
+					<mat-error *ngIf="error.message">
+					</mat-error>
+				</mat-form-field>
+				<mat-form-field class="full-width-input">
+					<input matInput type="password" placeholder="Password" formControlName="password" required>
+					<mat-error *ngIf="error.message.length > 0">
+						{{error.message}}
+					</mat-error>
+				</mat-form-field>
+				<button mat-raised-button color="primary" (click)="onLogin()">Login</button>
+				<label routerLink="/register">Not a member? Register</label>
+			</form>
+		</mat-card-content>
+	</mat-card>
+	<mat-error *ngIf="error.message.length > 0">
+		{{error.message}}
+	</mat-error>
+</div>

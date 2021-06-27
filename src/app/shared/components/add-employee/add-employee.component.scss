@@ -1,0 +1,30 @@
+form {
+	margin-top: -40px;
+}
+
+.controles-container {
+	width: 70%;
+	height: 100%;
+	padding: 5%;
+}
+
+.controles-container > * {
+	width: 100%;
+}
+
+.gender {
+	margin-top: 0px;
+}
+
+mat-form-field{
+	margin-bottom: 10px;
+
+	
+}
+
+.btn-dialog-close{
+    width: 45px;
+    min-width: 0px !important;
+    height: 40px;
+    padding: 0px !important;
+}
