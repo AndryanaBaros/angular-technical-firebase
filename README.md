@@ -33,6 +33,11 @@ npm install
 ```shell
 ng serve
 ```
+5. You can login with this user: 
+  - email : baros@baros.com
+  - password: qwertyu
+  
+6. or You can register in Register Page
 
 You must be connected to internet for running the database.
 
@@ -51,7 +56,7 @@ You must be connected to internet for running the database.
 - Node
 - NPM
 - HTML
-- SCSS
+- SASS
 - Angular-Material
 - Bootstrap
 
