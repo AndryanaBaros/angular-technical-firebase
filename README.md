@@ -1,13 +1,11 @@
-<h1 align="center">Website Dahsbord</h1>
 
-
+# Website Dahsbord &middot; [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm/)
 ## Project Description
 
 - Create using angular
 - Firebase (database)
 - Form validation
 - Firebase authentication (login)
-
 
 ## Links
 
@@ -19,16 +17,19 @@
 
 open you terminal, and copy this
 
+1. Clone the repo.
 ```shell
 git clone https://github.com/AndryanaBaros/angular-technical-firebase
 ```
-
+2. Enter the directory project.
 ```shell
 cd angular-technical-test
 ```
+3. Insall Npm Pacakages.
 ```shell
 npm install
 ```
+4. Run this project.
 ```shell
 ng serve
 ```
