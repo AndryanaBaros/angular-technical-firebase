@@ -1,27 +1,66 @@
-# TechnicalTest
+<h1 align="center">Website Dahsbord</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
 
-## Development server
+## Project Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Create using angular
+- Firebase (database)
+- Form validation
+- Firebase authentication (login)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Links
 
-## Build
+- [Repo](https://github.com/AndryanaBaros/angular-technical-firebase)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Installing / Getting started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+open you terminal, and copy this
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```shell
+git clone https://github.com/AndryanaBaros/angular-technical-firebase
+```
 
-## Further help
+```shell
+cd angular-technical-test
+```
+```shell
+npm install
+```
+```shell
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+You must be connected to internet for running the database.
+
+## Screenshots
+
+<img src="src/assets/images/login.png" width="250"> <img src="src/assets/images/register.png" width="250">
+<img src="src/assets/images/home.png" width="250">
+<img src="src/assets/images/add-employee.png" width="250">
+<img src="src/assets/images/edit-employee.png" width="250">
+
+
+## Built With
+
+- Angular
+- Typescript
+- Node
+- NPM
+- HTML
+- SCSS
+- Angular-Material
+- Bootstrap
+
+
+## Author
+
+**Andryana Baros**
+
+- [Profile](https://github.com/andryanabaros "Andryana Baros")
+- [Email](mailto:andry.baros@gmail.com?subject=Hi "Hi!")
+
+
+Give a ⭐️ if you like this project!
