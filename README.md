@@ -52,6 +52,7 @@ You must be connected to internet for running the database.
 ## Built With
 
 - Angular
+- Firebase
 - Typescript
 - Node
 - NPM
